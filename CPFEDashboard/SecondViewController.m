@@ -31,7 +31,7 @@
 
 - (void)viewDidAppear:(BOOL)animated
 {
-   _throttleVoltageRequestTimer = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(sendThrottleVoltageUpdateRequest) userInfo:nil repeats:YES];
+   //_throttleVoltageRequestTimer = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(sendThrottleVoltageUpdateRequest) userInfo:nil repeats:YES];
 }
 
 - (void)sendThrottleVoltageUpdateRequest
