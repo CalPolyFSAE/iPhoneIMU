@@ -155,7 +155,7 @@ float zWaveformData[NUM_POINTS];
    
    NSData *packetData = [NSData dataWithBytes:&packet length:sizeof(packet)];
    
-   [_socket sendData:packetData toHost:@"10.0.1.255" port:2056 withTimeout:-1 tag:1];
+   [_socket sendData:packetData toHost:@"255.255.255.255" port:2056 withTimeout:-1 tag:1];
 }
 
 - (void)accelUpdate:(CMAccelerometerData *)data
@@ -185,7 +185,7 @@ float zWaveformData[NUM_POINTS];
    
    NSData *packetData = [NSData dataWithBytes:&packet length:sizeof(packet)];
    
-   [_socket sendData:packetData toHost:@"10.0.1.255" port:2056 withTimeout:-1 tag:1];
+   [_socket sendData:packetData toHost:@"255.255.255.255" port:2056 withTimeout:-1 tag:1];
    
 }
 

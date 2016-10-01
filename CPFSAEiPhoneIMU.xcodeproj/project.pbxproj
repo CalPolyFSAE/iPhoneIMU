@@ -319,6 +319,7 @@
 				TargetAttributes = {
 					D937C4551AAA4EB1002BB5CD = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2C26AD8SGU;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 0;
@@ -515,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2C26AD8SGU;
 				INFOPLIST_FILE = CPFEDashboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thomaswillson.CPFSAEiPhoneIMUSensor;
@@ -526,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2C26AD8SGU;
 				INFOPLIST_FILE = CPFEDashboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thomaswillson.CPFSAEiPhoneIMUSensor;
